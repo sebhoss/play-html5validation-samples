@@ -1,0 +1,3 @@
+h1. Play! HTML5 Validation Example Applications
+
+p. These applications show the "HTML5 validation tags":https://github.com/oasits/play-html5-validation together with several JavaScript libraries in action.

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>#{get 'title' /}</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" type="text/css" media="screen" href="@{'/public/stylesheets/main.css'}">
+        <link rel="shortcut icon" type="image/png" href="@{'/public/images/favicon.png'}">
+
+    	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="@{'/public/javascripts/jquery.f5.js'}"></script>
+    </head>
+    <body>
+        #{doLayout /}
+
+	<script type="text/javascript">
+	$('#inputs').ready(function() {
+    		$('#inputs').f5();
+	});
+</script>
+    </body>
+</html>
